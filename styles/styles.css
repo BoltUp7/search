@@ -5,6 +5,9 @@
 body {
     display: flex;
     flex-direction: column;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #title-bar {
@@ -32,9 +35,29 @@ body {
     flex-direction: column;
     margin: auto;
     align-items: center;
+    width: 100%;
 }
 
 #google h1 {
     font-size: 80px;
     font-family: 'Roboto', sans-serif;
+}
+
+
+form {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main-search {
+    border-radius: 25px;
+    border-width: 1px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#inputs input {
+    margin: 10px;
 }
